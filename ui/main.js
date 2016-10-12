@@ -1,7 +1,7 @@
 console.log('Loaded!');
 var element=document.getElementById("main text");
 element.innerHTML="new value";
-var img=document.getElementById("img");
+var img=document.getElementById("muddy");
 img.onclick =function() {
    var interval=setInterval(moveleft,100);
     img.style.marginleft=100px;
